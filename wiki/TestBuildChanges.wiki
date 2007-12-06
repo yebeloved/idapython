@@ -1,0 +1,21 @@
+#summary One-sentence summary of this page.
+
+= Changes between IDAPython version 0.9.54 and 0.9.55
+
+  * BUILDING.txt: Updated the building instructions for Mac
+  * build.py: Suppressed warning messages about const char *
+  * idp.i: Removed static keyword from IDB_Callback
+  * idp.i: Ignore all function pointer in structures
+  * idc.py: Implmented {First|Next}FuncFChunk()
+  * build.py: Version bumped to 0.9.55
+  * idp.i: Fixed IDP_Callback() prototype
+  * idc.py: SetType() implemented. Thanks to plusvic.
+  * idc.py: Structure offset member can also be 16-bit. Thanks plusvic
+  * bytes.i: Added is_debugger_on()
+  * bytes.i: Added {put|get}_many_bytes()
+  * idc.py: AddStrucMember() now adds offset members properly
+  * BUILDING.txt: Updated and cleaned up the build documentation.
+  * build.py: Workaround for Python's platform string bug on Vista
+  * idc.py: Fixed MakeFrame behaviour and return to match IDC version
+  * idp.i: Implemented IDB Event Hooks (most of them)
+  * idaapi.i: Enabled class directors for the module

@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 
-= Changes between IDAPython version 0.9.54 and 0.9.55
+= Changes between IDAPython version 0.9.54 and 0.9.55 =
 
   * BUILDING.txt: Updated the building instructions for Mac
   * build.py: Suppressed warning messages about const char *

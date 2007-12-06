@@ -3,7 +3,7 @@
 = Changes between IDAPython version 0.9.54 and 0.9.55 =
 
   * BUILDING.txt: Updated the building instructions for Mac
-  * build.py: Suppressed warning messages about const char *
+  * build.py: Suppressed warning messages about const char pointers
   * idp.i: Removed static keyword from IDB_Callback
   * idp.i: Ignore all function pointer in structures
   * idc.py: Implmented {First|Next}FuncFChunk()

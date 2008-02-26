@@ -1,0 +1,22 @@
+= Known uses of IDAPython =
+
+
+[http://pedram.openrce.org/PaiMei/docs/ PaiMei] by Pedram Amini
+
+ "PaiMei, is a reverse engineering framework consisting of multiple extensible components. The framework can essentially be thought of as a reverse engineer's swiss army knife and has already been proven effective for a wide range of both static and dynamic tasks such as fuzzer assistance, code coverage tracking, data flow tracking and more."
+
+[http://www.dkbza.org/ida2sql.html ida2sql] by Ero Carrera
+
+ "ida2sql is the Python module in charge of exporting the disassembly information from IDA into the  SQL Schema we developed in Sabre-Security for our BinNavi  product."
+
+[http://dkbza.org/idb2reml.html idb2reml] by Ero Carrera
+
+ "idb2reml allows information from IDA to be exported into an XML format (REML) which can be futher processed with custom scripts. A useful script to use in conjuction with idb2reml is [http://dkbza.org/pyreml.html pyreml]"
+
+[http://www.reconstructer.org/code.html IDAAPIHelp] by Frank Boldewin
+
+ "IDAAPIHelp is a small IDAPython script, that saves time when searching for API Information while e.g. analyzing a malware with IDA Pro. It looks at cursor position for a valid api call and if found it tries to show you the eligible API Info from the provided helpfile."
+
+[http://www.reconstructer.org/code.html MFC42Ord2FuncNames] by Frank Boldewin
+
+ "MFC42Ord2FuncNames is a small IDAPython script which converts MFC42 functions into its realnames. Normally IDA Pro should do this automatically, but in some cases the IDA auto-analysis fails."

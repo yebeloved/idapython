@@ -3,3 +3,4 @@
   * [Building]
   * InstallationInstructions
   * UsageInstructions
+  * KnownUses

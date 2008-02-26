@@ -1,4 +1,4 @@
-= Building IDAPython From Source =
+= Building IDAPython From Sources =
 
 == Prerequisites ==
 

@@ -20,3 +20,7 @@
 [http://www.reconstructer.org/code.html MFC42Ord2FuncNames] by Frank Boldewin
 
  "MFC42Ord2FuncNames is a small IDAPython script which converts MFC42 functions into its realnames. Normally IDA Pro should do this automatically, but in some cases the IDA auto-analysis fails."
+
+[http://reversingitout.blogspot.com/2008/01/again-on-visual-basic.html vbpython] by Paolo Palumbo
+
+ "For IDAPython users, I have created a complete python script that handles Visual Basic written programs."

@@ -1,5 +1,5 @@
 = IDAPython Documentation =
 
-  * BuildingInstructions
+  * [Building]
   * InstallationInstructions
   * UsageInstructions

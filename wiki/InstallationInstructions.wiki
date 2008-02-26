@@ -1,5 +1,3 @@
-#summary Installation instructions for IDAPython
-
 = Installation Instructions =
 
   * Check your Python version 2.4 or 2.5 installation

@@ -24,7 +24,9 @@
   * Microsoft Visual C on Windows [Microsoft Visual C++ 2005 Express Edition]
    http://msdn.microsoft.com/vstudio/express/visualc/
 
-Make sure all the needed tools (compiler, swig) are on the PATH. To make the default build settings work you can unpack the IDAPython source and IDA Pro SDK into the following directory structure:
+== Building ==
+
+Make sure all the needed tools (compiler, swig) are on the PATH. To make the default build settings work you should unpack the IDAPython source and IDA Pro SDK into the following directory structure:
 {{{
 swigsdk-versions/5.1/  - version 5.1 of the IDA Pro SDK
 idapython/             - IDAPython source code

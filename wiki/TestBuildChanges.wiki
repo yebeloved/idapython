@@ -5,7 +5,7 @@
   * idc.py: Implemented Compile()
   * idautils.py: Do not import all symbols from idaapi to keep the namespace clean
   * init.py: Import the required symbols from idaapi
-  * expr.i: Fixed Compile* function to return proper error messages
+  * expr.i: Fixed Compile functions to return proper error messages
   * python.cpp: Added RunPythonStatement() function to IDC
   * expr.i: Added CompileEx() Compile() and CompileLine()
   * idaapi.i: Added sval_pointer() type

@@ -1,5 +1,10 @@
 = Changes between IDAPython test builds =
 
+== Changes between IDAPython version 0.9.56 and 0.9.57 ==
+  * idc.py: Added missing idaapi. to GetMemberStrId()
+  * dbg.i: First implementation of debug event callback
+  * Added small test script for debug event notification hooks
+
 == Changes between IDAPython version 0.9.55 and 0.9.56 ==
 
   * idc.py: Implemented Compile()

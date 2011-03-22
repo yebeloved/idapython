@@ -65,7 +65,7 @@ seg = getseg(ea)
 # Loop from segment start to end
 func = get_func(seg.startEA)
 
-while func != None and func.startEA < seg.endEA:
+while func is not None and func.startEA < seg.endEA:
 	funcea = func.startEA
 	print "Function %s at 0x%x" % (GetFunctionName(funcea), funcea)
 
